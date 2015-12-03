@@ -1,0 +1,33 @@
+.ttt {
+  background-color: green;
+  height: 450px;
+  width: 450px;
+}
+
+.square {
+  outline: 3px solid black;
+  width: 150px;
+  height: 150px;
+  float: left;
+  cursor: pointer;
+  background-color: gray;
+  list-style-type: none;
+}
+
+.square:hover {
+  background-color: yellow;
+}
+
+.square-occupied {
+  background-image: url(https://c2.staticflickr.com/8/7179/6810091760_f333c7d5e2_z.jpg);
+  background-size: 100% 100%;
+  color: red;
+  font-size: 124px;
+  text-align: center;
+}
+
+.grid {
+  height: 450px;
+  width: 450px;
+  padding: 0;
+}
